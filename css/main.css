@@ -1,0 +1,552 @@
+/* home section */
+.home-section {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(90deg, black 70%, black 30%);
+}
+
+/* navbar */
+#navbar {
+  background: linear-gradient(90deg, #C91825 70%, #C91825 30%);
+}
+
+#logo {
+  margin-left: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.navbar-nav {
+  margin-left: 50px;
+  margin-top: 6px;
+}
+
+.nav-item .nav-link {
+  margin-left: 10px;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+  text-shadow: 1px 1px 1px black;
+  letter-spacing: 2px;
+  transition: 0.5s ease;
+}
+
+.nav-item .nav-link:hover {
+  color: #C91825;
+}
+
+#btncv {
+  background: transparent;
+  border: 2px solid black;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 991px) {
+  #btncv {
+    border: 2px solid #C91825;
+    color: #C91825;
+    margin-left: 20px;
+  }
+}
+/* home content */
+.home {
+  width: 100%;
+  height: 91.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 0;
+}
+.home .img {
+  flex: 1 1 400px;
+}
+.home .img {
+  flex: 1 1 400px;
+}
+.home .img {
+  width: 76%;
+  margin-left: 30px;
+}
+
+.home .content {
+  flex: 1 1 400px;
+  margin-left: 45px;
+}
+.home .content h5 {
+  color: #C91825;
+  letter-spacing: 3px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.home .content h3 {
+  font-size: 50px;
+  color: #C91825;
+}
+.home .content h3 h3 span {
+  color: #C91825;
+  font-weight: bold;
+}
+
+.changecontent::after {
+  content: " ";
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  animation: changetext 20s infinite linear;
+}
+
+@keyframes changetext {
+  0% {
+    content: "Web Designer";
+  }
+  30% {
+    content: "Full-Stack Developer";
+  }
+  60% {
+    content: "Graphic Designer";
+  }
+  100% {
+    content: "Bootstrap Web Design";
+  }
+}
+.home .content p {
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+#btn1 {
+  width: 150px;
+  height: 30px;
+  letter-spacing: 3px;
+  border-radius: 5px;
+  color: #C91825;
+  border: 2px solid #C91825;
+  background: transparent;
+  margin-top: 20px;
+  font-weight: bold;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+#btn1:hover {
+  background-color: #C91825;
+  color: black;
+}
+
+@media screen and (max-width: 844px) {
+  .home-section {
+    height: 146vh;
+    background: black;
+  }
+  .home .content {
+    margin-top: 50px;
+  }
+  #navbar {
+    background: black;
+  }
+}
+@media screen and (max-width: 650px) {
+  .home-section {
+    height: 130vh;
+  }
+  .img img {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .home-section {
+    height: 110vh;
+  }
+}
+/* home content */
+/* home section */
+/* about */
+#about {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+
+#about .card img {
+  background-color: #C91825;
+  border: 2px solid black;
+}
+
+#about h3 {
+  color: white;
+  border-bottom: 2px solid #C91825;
+  width: 150px;
+}
+#about p {
+  color: white;
+  font-size: 15px;
+}
+#about h2 {
+  color: white;
+  font-size: 17px;
+}
+#about h2 h2 span {
+  font-size: 15px;
+  color: #C91825;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#btncv2 {
+  width: 160px;
+  height: 38px;
+  border-radius: 5px;
+  margin-top: 20px;
+  background-color: white;
+  border: none;
+  color: black;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+#btncv2:hover {
+  background-color: #C91825;
+}
+
+@media screen and (max-width: 987px) {
+  #about p {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 767px) {
+  #about {
+    height: 150vh;
+  }
+  #about p {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #about {
+    height: 120vh;
+  }
+}
+/* about */
+/* services */
+#services {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+
+#services h3 {
+  width: 130px;
+  padding-top: 130px;
+  color: white;
+  border-bottom: 2px solid #C91825;
+}
+
+#services .card {
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+#services .card:hover {
+  background-color: #C91825;
+}
+
+#services p {
+  color: white;
+}
+
+#services .card i {
+  font-size: 42px;
+  margin-left: 10px;
+}
+
+#services .card h2 {
+  font-size: 22px;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  #services {
+    height: 200vh;
+  }
+}
+/* services */
+.hr {
+  width: 100%;
+  height: 1px;
+  background-color: #C91825;
+}
+
+/* resume */
+#resume {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+
+#resume h5 {
+  color: #C91825;
+  padding-top: 50px;
+}
+#resume h1 {
+  color: white;
+}
+#resume h3 i {
+  color: #C91825;
+}
+#resume h3 {
+  color: white;
+  border-bottom: 2px solid #C91825;
+  width: 170px;
+  margin-top: 30px;
+}
+#resume h2 {
+  color: white;
+  margin-top: 20px;
+  font-size: 26px;
+}
+#resume p {
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+#resume i {
+  color: #C91825;
+}
+
+@media screen and (max-width: 767px) {
+  #resume {
+    height: 150vh;
+  }
+}
+/* resume */
+/* portfolio */
+#portfolio {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+
+#portfolio h1 {
+  color: white;
+  padding-top: 15px;
+}
+
+#portfolio p {
+  color: white;
+}
+
+#portfolio .card {
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+#portfolio .card:hover {
+  transform: translateY(-10px);
+}
+
+@media screen and (max-width: 770px) {
+  #portfolio {
+    height: 330vh;
+  }
+}
+@media screen and (max-width: 460px) {
+  #portfolio {
+    height: 270vh;
+  }
+}
+@media screen and (max-width: 380px) {
+  #portfolio {
+    height: 235vh;
+  }
+}
+@media screen and (max-width: 312px) {
+  #portfolio {
+    height: 200vh;
+  }
+}
+@media screen and (max-width: 300px) {
+  #portfolio {
+    height: 190vh;
+  }
+}
+@media screen and (max-width: 280px) {
+  #portfolio h1 {
+    padding-top: 100px;
+  }
+}
+/* portfolio */
+/* contact */
+#contact {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+
+#contact h1 {
+  color: white;
+  border-bottom: 2px solid #C91825;
+  width: 210px;
+  padding-top: 100px;
+}
+
+#contact p {
+  color: white;
+}
+
+#contact input {
+  width: 420px;
+  margin-top: 30px;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+}
+
+#contact ::placeholder {
+  color: white;
+}
+
+#contact textarea {
+  background: transparent;
+  border: 2px solid white;
+  margin-top: 20px;
+  color: white;
+}
+
+#btncontact {
+  width: 420px;
+  height: 38px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  background: transparent;
+  color: #C91825;
+  border: 2px solid #C91825;
+  margin-top: 30px;
+}
+
+#contact i {
+  color: #C91825;
+  margin-top: 30px;
+  margin-left: 7px;
+  font-size: 20px;
+}
+
+.socail-links i {
+  padding-top: 20px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 995px) {
+  #contact input {
+    width: 350px;
+  }
+  #contact textarea {
+    width: 350px;
+  }
+  #contact #btncontact {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 476px) {
+  #contact input {
+    width: 250px;
+  }
+  #contact textarea {
+    width: 250px;
+  }
+  #contact #btncontact {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 320px) {
+  #contact input {
+    width: 180px;
+  }
+  #contact textarea {
+    width: 180px;
+  }
+  #contact #btncontact {
+    width: 180px;
+  }
+}
+@media screen and (max-width: 767px) {
+  #contact {
+    height: 150vh;
+  }
+}
+/* contact */
+/* footer */
+#footer {
+  width: 100%;
+  background-color: #C91825;
+}
+
+#footer h1 {
+  color: white;
+  text-shadow: 0px 1px 1px black;
+  padding-top: 30px;
+}
+
+#footer p {
+  color: white;
+  text-shadow: 0px 0px 1px;
+}
+
+.icons i {
+  text-shadow: 1px 1px 1px black;
+  font-size: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.copyright {
+  color: white;
+  margin-top: 20px;
+  text-shadow: 1px 1px 1px white;
+}
+
+.credite {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+/* footer */
+html {
+  scroll-behavior: smooth;
+}
+
+.arrow {
+  position: fixed;
+  border-radius: 50px;
+  color: white;
+  height: 50px;
+  bottom: 40px;
+  right: 50px;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px black;
+  text-align: center;
+  line-height: 50px;
+}
+
+.arrow:hover {
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Abyssinica SIL", serif;
+}
+
+/*# sourceMappingURL=main.css.map */
