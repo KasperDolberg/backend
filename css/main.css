@@ -190,20 +190,20 @@
   margin-top: 10px;
 }
 
-#btncv2 {
+#botoncontact {
   width: 160px;
   height: 38px;
   border-radius: 5px;
   margin-top: 20px;
-  background-color: white;
+  background-color: #C91825;
   border: none;
-  color: black;
+  color: white;
   transition: 0.5s ease;
   cursor: pointer;
 }
 
-#btncv2:hover {
-  background-color: #C91825;
+#botoncontact:hover {
+  background-color: black;
 }
 
 @media screen and (max-width: 987px) {

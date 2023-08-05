@@ -206,19 +206,19 @@ $justwhite: white;
 }
 
 
-#btncv2{
+#botoncontact{
     width: 160px;
     height: 38px;
     border-radius: 5px;
     margin-top: 20px;
-    background-color: $justwhite;
+    background-color: $themepage;
     border: none;
-    color: $themeblack;
+    color: $justwhite;
     transition: 0.5s ease;
     cursor: pointer;
 }
-#btncv2:hover{
-    background-color: $themepage;
+#botoncontact:hover{
+    background-color: $themeblack;
 }
 @media screen and (max-width:987px){
     #about p{
